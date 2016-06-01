@@ -1,6 +1,6 @@
 print(crime_rates)
 
-highest = crime_rates[0]
+highest = crime_rates[0] #starting at the beginning of the list 
 
 for cr in crime_rates:
      if cr > highest:
