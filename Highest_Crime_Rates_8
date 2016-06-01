@@ -1,0 +1,7 @@
+print(crime_rates)
+
+highest = crime_rates[0]
+
+for cr in crime_rates:
+     if cr > highest:
+         highest = cr
