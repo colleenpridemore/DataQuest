@@ -1,0 +1,14 @@
+f = open('crime_rates.csv', 'r')
+data = f.read()
+
+row = data.split('\n')
+
+int_crime_rates = []
+
+for row in rows:
+    rows = row.split(',')
+    rowx = rows[1]
+    int_crime_rates.append(int(rowx))  #attach new data to the new list called
+                                       #"int_crime_rates" with each interation
+    
+print (int_crime_rates)
